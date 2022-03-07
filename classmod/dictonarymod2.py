@@ -1,0 +1,9 @@
+idno=int(input("entre the id"))
+name=(input("entre the name"))
+place=(input("entre the place"))
+email=(input("entre the id"))
+details={"id":idno,"name":name,"place":place,"email":email}
+print("id=",details["id"])
+print("Name=",details["name"])
+print("Address=",details["place"])
+print("Email id=",details["email"])
